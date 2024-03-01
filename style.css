@@ -23,3 +23,8 @@ html {
     opacity: 1;
     background: repeating-linear-gradient( 45deg, rgb(45, 47, 52), rgb(48, 48, 48) 12px,rgb(25, 25, 25) 8px, rgb(25, 25, 25) 40px );
 }
+
+.nameHolder {
+  height: 350px;
+  width: 250px;
+}
