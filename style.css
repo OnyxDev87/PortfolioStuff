@@ -27,9 +27,56 @@ html {
 .nameHolder {
   height: 350px;
   width: 250px;
-  background-color: #ffffff;
+  background-color: rgb(10, 10, 10, 0.75);
 }
 
 .row1 {
-  
+  height: 350px;
+  width: 3px;
+  background: linear-gradient(1turn, rgb(255, 255, 255), rgb(255, 255, 255, 0), rgb(255, 255, 255));
+  position: absolute;
+}
+
+.row2 {
+  height: 350px;
+  width: 3px;
+  background: linear-gradient(1turn, rgb(255, 255, 255), rgb(255, 255, 255, 0), rgb(255, 255, 255));
+  position: relative;
+  left: 125px;
+}
+
+.pName {
+  color: #ffffff;
+  font-family:'Arial';
+  font-size: 50px;
+  font-weight: 700;
+  position: relative;
+  top: -365px;
+}
+
+.pDesc {
+  color: #ffffff;
+  font-family:'Arial';
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  top: -380px;
+}
+
+.pBtn {
+  position: relative;
+  top: -370px;
+  height: 50px;
+  width: 150px;
+  color: #ffffff;
+  font-family:'Arial';
+  font-size: 25px;
+  font-weight: 500;
+  background-color: rgb(45, 45, 45);
+  border: none;
+  border-radius: 5px;
+}
+
+.pBtn:hover {
+  background-color: rgb(60, 60, 60);
 }
