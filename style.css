@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  color: #ffffff;
+  font-family:'Arial';
+  font-size: 75px;
+  font-weight: 700;
+  width: 90%;
+}
+.button {
+  color: #0a0a0a;
+  font-family:'Arial';
+  font-size: 50px;
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+.bg {
+    overflow: hidden;
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, rgb(45, 47, 52), rgb(48, 48, 48) 12px,rgb(25, 25, 25) 8px, rgb(25, 25, 25) 40px );
+}
