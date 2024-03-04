@@ -45,6 +45,14 @@ html {
   left: 125px;
 }
 
+.row2-M {
+  height: 350px;
+  width: 3px;
+  background: linear-gradient(1turn, rgb(255, 255, 255), rgb(255, 255, 255, 0), rgb(255, 255, 255));
+  position: relative;
+  left: 250px;
+}
+
 .pName {
   color: #ffffff;
   font-family:'Arial';
@@ -79,4 +87,19 @@ html {
 
 .pBtn:hover {
   background-color: rgb(60, 60, 60);
+}
+
+.nameHolder-Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+  width: 100%;
+}
+
+.nameHolder-M {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(10, 10, 10, 0.75);
 }
